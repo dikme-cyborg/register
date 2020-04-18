@@ -7,8 +7,8 @@ Perhatikan Langkah-Langkahnya
 4. pkg install curl
 5. pkg install git
 7. git clone https://github.com/sulistyo8888/register
-8. cd claim
-9. php claim.php
+8. cd register
+9. php vcr1.php
 10. Sudah Punya User Login ?: "y"
 11. Masukin User Loginnya
 12. Ketikan Nama Anda.
