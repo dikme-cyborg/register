@@ -3,22 +3,22 @@ date_default_timezone_set('Asia/Jakarta');
 include "function1.php";
 echo "\e[95m▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n";
 echo "\e[96m_______________________________________________________\n";
-echo "\e[96m ******      Auto Regist + Set Pin Gopay\n";
-echo "\e[96m *** ***.       Gunakan Dengan Bijak\n";
-echo "\e[96m ***  ***   \n";
-echo "\e[96m ***  ***    \n";
-echo "\e[96m *** ***   *******  *   *****     **\n";
-echo "\e[96m ***  ***     *     *  *         *  *\n";
-echo "\e[96m ***   ***    *     *  *   **   ******\n";
-echo "\e[96m ***    ***   *     *   ****   *      *\n";
+echo "\e[96m dikme      Auto Regist + Set Pin Gopay\n";
+echo "\e[96m dikme.       Gunakan Dengan Bijak\n";
+echo "\e[96m dikme   \n";
+echo "\e[96m dikme    \n";
+echo "\e[96m dikme \n";
+echo "\e[96m dikme \n";
+echo "\e[96m dikme \n";
+echo "\e[96m dikme \n";
 echo "\e[96m_________________\e[95m".date('[d-m-Y] [H:i:s]')."\e[96m________________\n";
 echo "\e[95m▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n";
 echo "\e[96m▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n";
 echo "\e[93m            \e[96m  VOUCHER YANG TERSEDIA \e[93m \n";
 echo "\e[96m  ==============================================\n";
-echo "\e[96m  =\e[95m 🤸  1. VOUCHER Eatlah ✓           🤪 \e[96m=\n";
-echo "\e[96m  =\e[95m 🤸  2. VOUCHER GOFOOD Merchant Partner ✓ 🤪 \e[96m=\n";
-echo "\e[96m  =\e[95m 🤸  3. VOUCHER GOFOOD Voc Dasar ✓ 🤪 \e[96m=\n";
+echo "\e[96m  =\e[95m 🤸  1. VOUCHER Ngewe ✓           🤪 \e[96m=\n";
+echo "\e[96m  =\e[95m 🤸  2. VOUCHER colmek ✓ 🤪 \e[96m=\n";
+echo "\e[96m  =\e[95m 🤸  3. VOUCHER wikwik ✓ 🤪 \e[96m=\n";
 echo "\e[96m  =\e[95m 🤸  4. VOUCHER ??? ✓     🤪 \e[96m=\n";
 echo "\e[96m  ==============================================\n";
 echo "\e[96m▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n";
@@ -49,14 +49,14 @@ else
 		echo "\e[96m[🚫]        \e[91mMasukkan User Registrasi      \e[96m [🚫]\n";
 	        echo "\e[96m[🚫]              \e[91m⚠️ WARNING ⚠️             \e[96m [🚫]\n";
 		echo "\e[96m[🚫]           \e[91mSEGERA MINTA IZIN          \e[96m [🚫]\n";
-	        echo "\e[96m[🚫]             \e[91m@Rtiga Termux       \e[96m [🚫]\n";
+	        echo "\e[96m[🚫]             \e[91mNgewe Termux       \e[96m [🚫]\n";
 		echo "\e[91m▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n";
 goto login;
 }
 	return rtrim( $input, "\n" );
 ulang:
 echo "\n";
-echo "\e[96m            (Halo Apa Kabarmu $input)               \n";
+echo "\e[96m            (udah coli ?? $input)               \n";
 echo "\e[89m▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n";
 // function change(){
         $nama = nama();
@@ -100,8 +100,8 @@ echo "\e[89m▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬�
         $uuid = getStr('"resource_owner_id":',',',$verif);
         echo color("nevy","+] Akses token Lo Nih Boy : ".$token."\n\n");
         save("token.txt",$token);
-        echo color("nevy","\n▬▬▬▬▬▬▬▬▬▬▬▬🛠 Salim Sama Orang Kantor Gojek🛠▬▬▬▬▬▬▬▬▬▬▬▬");
-        echo "\n".color("nevy","🔒▶️ Claim Voc GOFOOD");
+        echo color("nevy","\n▬▬▬▬▬▬▬▬▬▬▬▬🛠 Colmek Sama Orang Kantor Gojek🛠▬▬▬▬▬▬▬▬▬▬▬▬");
+        echo "\n".color("nevy","🔒▶️ Claim Voc NGEWE");
         echo "\n".color("yellow","⏳▶️ Sabar Boy");
         for($a=1;$a<=3;$a++){
         echo color("yellow",".");
@@ -138,7 +138,7 @@ echo "\e[89m▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬�
         $code1 = request('/go-promotions/v1/promotions/enrollments', $token, '{"promo_code":"COBAGOFOOD2107"}');
         $message = fetch_value($code1,'"message":"','"');
         echo "\n".color("green","🔓▶️ Message: ".$message);
-        echo "\n".color("nevy","🔒▶️ Refresh Voc GOFOOD tau apaan aja bebas lah");
+        echo "\n".color("nevy","🔒▶️ Refresh Voc Ngewe janda tau apaan aja bebas lah");
         echo "\n".color("yellow","⏳▶️ Sabar Boy");
         for($a=1;$a<=3;$a++){
         echo color("yellow",".");
@@ -222,7 +222,7 @@ echo "\e[89m▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬�
          $pilih1 = trim(fgets(STDIN));
          if($pilih1 == "y" || $pilih1 == "Y"){
          //if($pilih1 == "y" && strpos($no, "628")){
-         echo color("nevy","▬▬▬▬▬▬▬▬▬▬▬▬▬▬🔧 PIN GOPAY = 789565 🔧▬▬▬▬▬▬▬▬▬▬▬▬")."\n";
+         echo color("red","▬▬▬▬▬▬▬▬▬▬▬▬▬▬🔧 PIN GOPAY = 789565 🔧▬▬▬▬▬▬▬▬▬▬▬▬")."\n";
          $data2 = '{"pin":"789565"}';
          $getotpsetpin = request("/wallet/pin", $token, $data2, null, null, $uuid);
          echo "OTP PIN 6 digit : ";
